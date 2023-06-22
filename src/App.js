@@ -1,13 +1,15 @@
-
 import './App.css';
-import Navbar from './pages/Navbar.js'
+import Start from './pages/Start.js'
+import Konor from './pages/Konor.js'
 
 function App() {
   return (
     <div >
-     
+
+<Start/>
+<Konor/>
     </div>
   );
 }
-
 export default App;
+
