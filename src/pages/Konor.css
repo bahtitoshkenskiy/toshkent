@@ -1,14 +1,31 @@
 .big{
     background: rgb(93, 93, 255);
-    width:1950px ;
-    height: 800px;
+    width:200vh ;
+    height: 80vh;
+    min-width: 300px;
+    flex-wrap: wrap;
+}
+@media (max-width:1200px) {
+.text{
+    padding-right: 100px;
+    margin-left: 0%;
+}
+.h1{
+    font-size: 17px;
+}
+.p1{
+    font-size: 15px;
+}
+.yelow{
+    width: 50vh;
+    height: 50vh;
+}
 }
 .yelow{
     background: yellow;
     width: 1000px;
     height: 1000px;
     border-radius: 550px;
-    margin: auto;
     margin-left: 65%;
 margin-top: -57%;
 }
@@ -17,8 +34,6 @@ margin-top: -57%;
     width: 603px;
 height: 180px;
 
-font-size: 50px;
-line-height: 60px;
 
 /* white */
 
@@ -29,19 +44,14 @@ color: #FFFFFF;
 height: 58px;
 left: 167px;
 top: 397px;
-
-font-family: 'SF Pro Display';
-font-size: 24px;
-line-height: 29px;
-
+padding-top: 20px;
 /* white */
-padding-top: 150px;
 color: #FFFFFF;
 }
 .inp1{
     box-sizing: border-box;
 margin-top: 100px;
-width: 660px;
+width: 420px;
 height: 60px;
 left: 167px;
 top: 483px;
@@ -52,16 +62,73 @@ background: #FFFFFF;
 border: 2px solid #FFFFFF;
 border-radius: 4px;
 }
+.text{
+    margin-left:2%;
 
-
-
-
-
-
-
-
-
-
+}
+.bt4{
+width: 150px;
+height: 30px;
+border: none;
+background: rgba(255, 184, 0, 1);
+}
+.mini4{
+    display: flex;
+justify-content: space-around;
+padding-top: 20px;
+}
+.uzs1{
+    width: 700px;
+    height: 250px;
+    background: rgba(255, 255, 255, 1);
+}
+.uzs2{
+    width: 700px;
+    height: 250px;
+    background: rgba(255, 255, 255, 1);
+}
+.uzs3{
+    width: 700px;
+    height: 250px;
+    background: rgba(255, 255, 255, 1);
+}
+.uzs4{
+    width: 700px;
+    height: 250px;
+    background: rgba(255, 255, 255, 1);
+}
+.bt5{
+width: 50px;
+height: 50px;
+border-radius: 30px;
+border: none;
+margin-top: 13%;
+}
+.mini5{
+    margin-top: 10%;
+}
+.mini6{
+    display: flex;
+    justify-content: space-around;
+}
+.bt6{
+    width: 150px;
+height: 30px;
+border: none;
+background: rgba(16, 200, 160, 1);
+}
+.bt7{
+    width: 150px;
+height: 30px;
+border: none;
+background: rgba(17, 189, 243, 1);
+}
+.bt7{
+    width: 150px;
+height: 30px;
+border: none;
+background: rgba(235, 59, 59, 1);
+}
 
 
 
