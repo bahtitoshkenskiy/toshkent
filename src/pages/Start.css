@@ -1,55 +1,22 @@
+
 .img1{
-    background: url(./Group\ \(2\).png);
     width: 98px;
     height: 45px;
+    background: url(./Group\ \(2\).png);
 }
 .bt1{
-    box-sizing: border-box;
-margin-top: 2%;
-border: none;
-width: 204px;
-height: 30px;
-font-size: 17px;
-color: blue;
-opacity: 0.3;
-/* seriy */
-
-border: 1px solid #9DA7BB;
-border-radius: 4px;
-}
-.bt2{
-    box-sizing: border-box;
-margin-top: 1%;
+    width: 150px;
+    height: 35px;
     border: none;
-    margin-left: 100px;
-    margin-right: 30px;
-width: 150px;
-height: 30px;
-color: blue;
-opacity: 0.3;
-/* seriy */
-
-border: 1px solid #9DA7BB;
-border-radius: 4px;
+    background: rgb(234, 238, 245);
+    color: blue;
 }
 .bt3{
     width: 150px;
-height: 30px;
-margin-top: 1%;
-/* violet */
-
-border: none;
-background: #536DFD;
-border-radius: 4px;
+    height: 35px;
+    border: none;
+    background: rgb(109, 109, 255); 
 }
-
-
-
-
-
-
-
-
 
 
 
