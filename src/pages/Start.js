@@ -1,33 +1,42 @@
 import React, { Component } from 'react'
 import './Start.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { RiArrowDownSLine} from "react-icons/ri";
 
 export default class Start extends Component {
   render() {
     return (
       <div>
-         <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="#home"><div className="img1"></div></Navbar.Brand>
-        <Navbar.Brand href="#home"><button className='bt1'>Barcha kurslar<RiArrowDownSLine/></button></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-
+<Navbar expand="lg" className="bg-body-tertiary">
+      <Container >
+        <Navbar.Brand href="#"><div className="img1"></div></Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
+            <select name="" id="select1">
+              <option value="1">Barcha kurslar</option>
+            </select>
           </Nav>
-          <Nav>
-          <Nav.Link href="#features"><button className='bt1'> UZBEK<RiArrowDownSLine/></button></Nav.Link>
-            <Nav.Link href="#pricing"><button className='bt3'>Kirish</button></Nav.Link>
-          </Nav>
+          <Form className="d-flex">
+<select name="" id="select2">
+  <option value="1">Uzbek</option>
+  <option value="1">Russion</option>
+</select>
+<button className='bt1'>Kirish</button>
+          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-        
+
       </div>
     )
   }

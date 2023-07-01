@@ -7,7 +7,24 @@ function App() {
     <div >
 
 <Start/>
-<Konor/>
+<header className='header1'>
+<div className="text">
+  <h1>Biz sizga <span> Dasturla</span>
+va boshqa kurslarni taklif 
+qilamiz.</h1>
+  <p></p>
+  <div className="inp">
+    <input type="text" />
+  </div>
+</div>
+<div className="aylana"></div>
+<div className="cards">
+  <div className="card1"></div>
+  <div className="card1"></div>
+  <div className="card1"></div>
+  <div className="card1"></div>
+</div>
+</header>
     </div>
   );
 }
