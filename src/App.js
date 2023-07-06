@@ -2,11 +2,12 @@ import './App.css';
 import Start from './pages/Start.js'
 import Konor from './pages/Konor.js'
 import { RiSearch2Line } from "react-icons/ri";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 function App() {
   return (
     <div >
-
+<Konor/>
 <Start/>
 <header className='header1'>
 <div className="text">
@@ -21,10 +22,128 @@ mumkin. Buning uchun qidiruv tizimidan foydalaning</h5>
 </div>
 <div className="aylana"></div>
 <div className="cards">
-  <div id='card01' className="card1"></div>
-  <div className="card1"></div>
-  <div  className="card1"></div>
-  <div id='card1' className="card1"></div>
+  <div id='card01' className="card1">
+    <div className="dv1">
+      <button className='bt5'>Marketing</button>
+      <h3 className='h11'>250.000 UZS</h3>
+    </div>
+    <h3 className='h12'>Raqamli marketing bo'yicha 
+to'liq kurs</h3><div className="img2"></div>
+    <button className='bt6'><AiOutlineArrowRight/></button>
+  </div>
+  <div className="card1">
+  <div className="dv1">
+      <button className='bt7'>Dasturlash</button>
+      <h3 className='h11'>250.000 UZS</h3>
+    </div>
+    <h3 className='h13'>Java Spring bo’yicha to’liq
+kurs(amaliy)</h3><div className="img2"></div>
+    <button className='bt6'><AiOutlineArrowRight/></button>
+  </div>
+  <div  className="card1">
+  <div className="dv1">
+      <button className='bt8'>Dizayn</button>
+      <h3 className='h11'>250.000 UZS</h3>
+    </div>
+    <h3 className='h14'>Illustrator 0 dan professionalgacha
+to’liq kurs</h3><div className="img2"></div>
+    <button className='bt6'><AiOutlineArrowRight/></button>
+  </div>
+  <div id='card1' className="card1">
+  <div className="dv1">
+      <button className='bt9'>Biznes</button>
+      <h3 className='h11'>250.000 UZS</h3>
+    </div>
+    <h3 className='h15'>Shaxsiy biznersni rivojlantirishda
+e’tibor berish kerak bo’lgan</h3><div className="img2"></div>
+    <button className='bt6'><AiOutlineArrowRight/></button>
+  </div>
+</div>
+</header>
+<h1 className='h'>Bizning eng top kurslarimizni ko'rib chiqing</h1>
+<header className='header2'>
+<div className="big">
+  <div className="minibig1">
+<div className="mini1">
+  <div className="img3">
+  <button className='bt11'>Dasturlash</button>
+  </div>
+  <div className="min1">
+    <div className="bginfo">
+    <div className="info1">
+      <h3 className='hh'>Java, Spring bo’yicha to’liq 
+kurs. (amaliy)</h3>
+<div className="img2"></div>
+    </div>
+    <div className="info2">
+<div className="text5">
+  <h6>Kurs hajmi</h6>
+  <h3>38 soat</h3>
+</div>
+<div className="text6">
+  <h6>Kurs narxi</h6>
+  <h3>250.000 UZS</h3>
+</div>
+<button className='btn1'><AiOutlineArrowRight/></button>
+    </div>
+    </div>
+  </div>
+</div>
+<div className="mini2">
+  <div className="img4">
+  <button className='btn2'>Dizayn</button>
+  </div>
+  <div className="min1">
+    <div className="bginfo">
+    <div className="info1">
+      <h3 className='hh1'>Illustrator boshlang’ichdan
+proffessionalgacha</h3>
+<div className="img2"></div>
+    </div>
+    <div className="info2">
+<div className="text5">
+  <h6>Kurs hajmi</h6>
+  <h3>38 soat</h3>
+</div>
+<div className="text6">
+  <h6>Kurs narxi</h6>
+  <h3>250.000 UZS</h3>
+</div>
+<button className='btn3'><AiOutlineArrowRight/></button>
+    </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div className="minibig2">
+  <div className="mini3">
+  <div className="img5">
+  <button className='btn2'>Dizayn</button>
+  </div>
+  <div className="min3">
+    <div className="bginfo">
+    <div className="info1">
+      <h3 className='hh2'>Boshlang’ich Photoshop
+kurslari</h3>
+<div className="img2"></div>
+    </div>
+    <div className="info2">
+<div className="text5">
+  <p>Kurs hajmi</p>
+  <h5>38 soat</h5>
+</div>
+<div className="text6">
+  <p>Kurs narxi</p>
+  <h5>250.000 UZS</h5>
+</div>
+<button className='btn3'><AiOutlineArrowRight/></button>
+    </div>
+    </div>
+  </div>
+</div>
+<div className="mini4"></div>
+<div className="mini5"></div>
+  </div>
 </div>
 </header>
     </div>
