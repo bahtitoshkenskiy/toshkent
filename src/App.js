@@ -3,7 +3,9 @@ import Start from './pages/Start.js'
 import Konor from './pages/Konor.js'
 import { RiSearch2Line } from "react-icons/ri";
 import { AiOutlineArrowRight } from "react-icons/ai";
-
+import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { LuPalette } from "react-icons/lu";
+import {  } from "react-icons/pi";
 function App() {
   return (
     <div >
@@ -130,19 +132,96 @@ kurslari</h3>
     <div className="info2">
 <div className="text5">
   <p>Kurs hajmi</p>
-  <h5>38 soat</h5>
+  <h5>42 soat</h5>
 </div>
 <div className="text6">
   <p>Kurs narxi</p>
-  <h5>250.000 UZS</h5>
+  <h5>370.000 UZS</h5>
 </div>
 <button className='btn3'><AiOutlineArrowRight/></button>
     </div>
     </div>
   </div>
 </div>
-<div className="mini4"></div>
-<div className="mini5"></div>
+<div className="mini4">
+  <div className="img6">
+  <button className='btn4'>Biznes</button>
+  </div>
+  <div className="min3">
+    <div className="bginfo">
+    <div className="info1">
+      <h3 className='hh2'>Shaxsiy biznesni rivojlan-
+tirish qoidalari</h3>
+<div className="img2"></div>
+    </div>
+    <div className="info2">
+<div className="text5">
+  <p>Kurs hajmi</p>
+  <h5>16 soat</h5>
+</div>
+<div className="text6">
+  <p>Kurs narxi</p>
+  <h5>420.000 UZS</h5>
+</div>
+<button className='btn3'><AiOutlineArrowRight/></button>
+    </div>
+    </div>
+  </div>
+</div>
+<div className="mini6">
+  <div className="img7">
+  <button className='btn5'>Buxgalteriya</button>
+  </div>
+  <div className="min3">
+    <div className="bginfo">
+    <div className="info1">
+      <h3 className='hh2'>1C bo’yicha to’liq kurs
+(amaliy)</h3>
+<div className="img2"></div>
+    </div>
+    <div className="info2">
+<div className="text5">
+  <p>Kurs hajmi</p>
+  <h5>36 soat</h5>
+</div>
+<div className="text6">
+  <p>Kurs narxi</p>
+  <h5>450.000 UZS</h5>
+</div>
+<button className='btn3'><AiOutlineArrowRight/></button>
+    </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div className="minibig3">
+<div className="text02">
+<h2>Top kategoriyalar</h2>
+<button className='btn6' >Barchasi</button>
+  </div>
+  <div className="bg1">
+    <div className="mnbg1">
+      <div className="mini22">
+        <HiOutlineDesktopComputer/>
+        <h3>Dasturlash</h3>
+      </div>
+      <div className="mini22">
+        <LuPalette/>
+        <h3>Dizayn</h3>
+      </div>
+      <div className="mini22">
+        <h3>Biznes</h3>
+      </div>
+      <div className="mini22">
+        <h3>Buxgalteriya</h3>
+      </div>
+    </div>
+    <div className="mnbg2">
+    <div className="mini22"></div>
+    <div className="mini22"></div>
+     <div className="mini22"></div>
+    </div>
   </div>
 </div>
 </header>
