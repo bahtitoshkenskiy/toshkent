@@ -1,11 +1,13 @@
 import './App.css';
 import Start from './pages/Start.js'
 import Konor from './pages/Konor.js'
-import { RiSearch2Line } from "react-icons/ri";
+import { RiSearch2Line,RiMedicineBottleLine } from "react-icons/ri";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { LuPalette } from "react-icons/lu";
-import {  } from "react-icons/pi";
+import { PiShoppingBagOpen,PiChartLineUpThin,PiHeartbeat } from "react-icons/pi";
+import { CiMedal } from "react-icons/ci";
+import { BsShield } from "react-icons/bs";
 function App() {
   return (
     <div >
@@ -211,16 +213,31 @@ tirish qoidalari</h3>
         <h3>Dizayn</h3>
       </div>
       <div className="mini22">
+        <PiShoppingBagOpen/>
         <h3>Biznes</h3>
       </div>
       <div className="mini22">
+        <RiMedicineBottleLine/>
         <h3>Buxgalteriya</h3>
       </div>
     </div>
     <div className="mnbg2">
-    <div className="mini22"></div>
-    <div className="mini22"></div>
-     <div className="mini22"></div>
+    <div className="mini22">
+      <PiChartLineUpThin/>
+      <h3>Marketing</h3>
+    </div>
+    <div className="mini22">
+      <CiMedal/>
+      <h3>Menejment</h3>
+    </div>
+    <div className="mini22">
+      <BsShield/>
+      <h3>Xavfsizlik</h3>
+    </div>
+     <div className="mini22">
+      <PiHeartbeat/>
+      <h3>Salomatlik</h3>
+     </div>
     </div>
   </div>
 </div>
