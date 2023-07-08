@@ -8,9 +8,10 @@ import { LuPalette } from "react-icons/lu";
 import { PiShoppingBagOpen,PiChartLineUpThin,PiHeartbeat } from "react-icons/pi";
 import { CiMedal } from "react-icons/ci";
 import { BsShield } from "react-icons/bs";
+import { BiCoinStack } from "react-icons/bi";
 function App() {
   return (
-    <div >
+<div >
 <Konor/>
 <Start/>
 <header className='header1'>
@@ -205,42 +206,43 @@ tirish qoidalari</h3>
   <div className="bg1">
     <div className="mnbg1">
       <div className="mini22">
-        <HiOutlineDesktopComputer/>
-        <h3>Dasturlash</h3>
+        
+        <h3><span className='sp1'><HiOutlineDesktopComputer/></span>Dasturlash</h3>
       </div>
       <div className="mini22">
-        <LuPalette/>
-        <h3>Dizayn</h3>
+      
+        <h3>  <span className='sp2'><LuPalette/></span>Dizayn</h3>
       </div>
       <div className="mini22">
-        <PiShoppingBagOpen/>
-        <h3>Biznes</h3>
+       
+        <h3> <span className='sp3'><PiShoppingBagOpen/></span>Biznes</h3>
       </div>
       <div className="mini22">
-        <RiMedicineBottleLine/>
-        <h3>Buxgalteriya</h3>
+        
+        <h3><span className='sp4'><BiCoinStack/></span>Buxgalteriya</h3>
       </div>
     </div>
     <div className="mnbg2">
     <div className="mini22">
-      <PiChartLineUpThin/>
-      <h3>Marketing</h3>
+     
+      <h3> <span className='sp5'></span><PiChartLineUpThin/>Marketing</h3>
     </div>
     <div className="mini22">
-      <CiMedal/>
-      <h3>Menejment</h3>
+      
+      <h3><span></span><CiMedal/>Menejment</h3>
     </div>
     <div className="mini22">
-      <BsShield/>
-      <h3>Xavfsizlik</h3>
+      
+      <h3><span></span><BsShield/>Xavfsizlik</h3>
     </div>
      <div className="mini22">
-      <PiHeartbeat/>
-      <h3>Salomatlik</h3>
+      
+      <h3><span></span><PiHeartbeat/>Salomatlik</h3>
      </div>
     </div>
   </div>
 </div>
+
 </header>
     </div>
   );

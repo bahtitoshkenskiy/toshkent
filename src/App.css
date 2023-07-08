@@ -343,11 +343,51 @@
         margin-top: 10%;
     }
     .mini22{
-        display: flex;
+   width: 230px;
+   height:70px;
+   border-radius: 4px;
+background: rgb(237, 237, 237);
+box-shadow: 3px 3px 3px  rgb(71, 71, 71);
+align-items: center;
+text-align: center;
     }
- 
-    
-    
+    .mini22 h3{
+        margin-top: 20px;
+    }
+ .mnbg1{
+    display: flex;
+    justify-content: space-around;
+ }
+    .mnbg2{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3%;
+    }
+    .sp1{
+       color:rgba(16, 200, 160, 1);
+    }
+.sp2{
+    color: #11BDF3;
+}
+.sp3{
+color: #EB3B3B;
+}.sp4{
+    color:
+    #FFE600;
+}.sp5{
+    color:
+    #D11F7F ;
+}
+.sp6{
+    color:
+    #F37E11 ;
+}.sp7{
+    color:#9DA7BB;
+}
+.sp8{
+    color:
+    #FF004D ;
+}
     
     
     
