@@ -357,11 +357,15 @@ text-align: center;
  .mnbg1{
     display: flex;
     justify-content: space-around;
+    min-width:300px;
+    flex-wrap: wrap;
  }
     .mnbg2{
         display: flex;
         justify-content: space-around;
         margin-top: 3%;
+        min-width:300px;
+        flex-wrap: wrap;
     }
     .sp1{
        color:rgba(16, 200, 160, 1);
@@ -388,6 +392,42 @@ color: #EB3B3B;
     color:
     #FF004D ;
 }
-    
+  .textt1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+  }
+.line1{
+    width: 133px;
+    height: 3px;
+    background: 
+    #536DFD;
+}
+.btn01{
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    background:rgba(16, 200, 160, 1);
+    border: none;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.hh01{
+width: 200px;
+}
+.img01{
+    width: 400px;
+    height: 195px;
+    background: url(./pages/Rectangle\ 11.1\ \(1\).png)      
+}
+
+
+
+
+
+
+
+
+
     
     

@@ -225,24 +225,66 @@ tirish qoidalari</h3>
     <div className="mnbg2">
     <div className="mini22">
      
-      <h3> <span className='sp5'></span><PiChartLineUpThin/>Marketing</h3>
+      <h3> <span className='sp5'><PiChartLineUpThin/></span>Marketing</h3>
     </div>
     <div className="mini22">
       
-      <h3><span></span><CiMedal/>Menejment</h3>
+      <h3><span className='sp6'><CiMedal/></span>Menejment</h3>
     </div>
     <div className="mini22">
       
-      <h3><span></span><BsShield/>Xavfsizlik</h3>
+      <h3><span className='sp7'><BsShield/></span>Xavfsizlik</h3>
     </div>
      <div className="mini22">
       
-      <h3><span></span><PiHeartbeat/>Salomatlik</h3>
+      <h3><span className='sp8'><PiHeartbeat/></span>Salomatlik</h3>
      </div>
     </div>
   </div>
 </div>
 
+</header>
+<header className='header3'>
+  <div className="textt1">
+    <div className="db">
+    <h3>Dasturlash</h3>
+    <h2 className='line1'></h2>
+    </div>
+    <h3>Dizayn</h3>
+    <h3>Marketing</h3>
+    <h3>Biznes</h3>
+    <h3>Salomatlik</h3>
+    <h3>Menejment</h3>
+    <h3>Buxgalteriya</h3>
+    <h3>Tarmoq  </h3>
+  </div>
+  <div className="cards1">
+    <div className="mini6">
+  <div className="img01">
+  <button className='btn01'>Dasturlash</button>
+  </div>
+  <div className="min3">
+    <div className="bginfo">
+    <div className="info1">
+      <h3 className='hh01'>Python bo’yicha boshlang’ich
+dasturlash</h3>
+<div className="img2"></div>
+    </div>
+    <div className="info2">
+<div className="text5">
+  <p>Kurs hajmi</p>
+  <h5>36 soat</h5>
+</div>
+<div className="text6">
+  <p>Kurs narxi</p>
+  <h5>450.000 UZS</h5>
+</div>
+<button className='btn3'><AiOutlineArrowRight/></button>
+    </div>
+    </div>
+  </div>
+</div>
+  </div>
 </header>
     </div>
   );
