@@ -17,6 +17,26 @@
     right: -60vw;
     top: -20vw;
     }
+    .bg1{
+display: grid;
+grid-template-columns: auto auto;
+display: block;
+min-width: 300px;
+flex-wrap: wrap;
+}
+.div1{
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+    flex-wrap: wrap;
+}
+.div2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    min-width: 300px;
+flex-wrap: wrap;
+}
     span{
         color:rgba(255, 212, 1, 1);
     }
@@ -54,6 +74,11 @@
     overflow: hidden;
     }
     @media (max-width:1200px) {
+.mini22{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
     .text02{
     padding-top: 220px;
     }
@@ -75,6 +100,9 @@
         }
         .mini6{
             margin-top: 45%;
+        }
+        .mini2{
+margin-top: 7%;
         }
     }
     .aylana{
@@ -237,9 +265,7 @@
         background: white;
         margin-top: 15px;
     }
-    .mini1{
-        display: block;
-    }
+
     .hh1{
         width: 493px;
         height: 58px;
@@ -256,9 +282,7 @@
     }
     
     
-    .mini1{
-        margin-left: 10%;
-    }
+
     .img5{
         width: 400px;
         height: 195px;
@@ -308,6 +332,7 @@
         rgba(188, 187, 187, 0.1); 
     
     }
+
     .btn5{
         width: 100px;
         height: 30px;
@@ -326,7 +351,7 @@
     .minibig2{
         display: flex;
         justify-content: space-around;
-        margin-top: 10%;
+        margin-top: 7%;
         min-width: 300px;
         flex-wrap: wrap;
     }
@@ -350,6 +375,7 @@ background: rgb(237, 237, 237);
 box-shadow: 3px 3px 3px  rgb(71, 71, 71);
 align-items: center;
 text-align: center;
+
     }
     .mini22 h3{
         margin-top: 20px;
@@ -396,6 +422,8 @@ color: #EB3B3B;
     display: flex;
     justify-content: space-around;
     margin-top: 10%;
+    min-width: 300px;
+    flex-wrap: wrap ;
   }
 .line1{
     width: 133px;
@@ -413,21 +441,68 @@ color: #EB3B3B;
     margin-top: 4%;
 }
 .hh01{
-width: 200px;
+width: 400px;
+margin-left: -5%;
+color: rgba(83, 109, 253, 1);
 }
 .img01{
     width: 400px;
     height: 195px;
     background: url(./pages/Rectangle\ 11.1\ \(1\).png)      
 }
-
-
-
-
-
-
-
-
+.mini7{
+    width: 400px;
+    height: 430px;
+        background: 
+    rgba(188, 187, 187, 0.1); 
+}
+.img02{
+    width: 400px;
+    height: 195px;
+    background: url(./pages/Rectangle\ 11.3.png)      
+}
+.hh02{
+    width: 400px;
+    margin-left: -5%;
+}
+.mini8{
+    width: 400px;
+    height: 430px;
+        background: 
+    rgba(188, 187, 187, 0.1); 
+}
+.mini9{
+    width: 400px;
+    height: 430px;
+        background: 
+    rgba(188, 187, 187, 0.1); 
+}
+.img03{
+    width: 400px;
+    height: 195px;
+    background: url(./pages/Rectangle\ 11.5.png)      
+}
+.img04{
+    width: 400px;
+    height: 195px;
+    background: url(./pages/Rectangle\ 11.7.png)      
+}
+.mini10{
+    width: 400px;
+    height: 430px;
+        background: 
+    rgba(188, 187, 187, 0.1);    
+}
+.hh03{
+    width: 300px;
+}
+.cards1{
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
 
     
     

@@ -204,42 +204,44 @@ tirish qoidalari</h3>
 <button className='btn6' >Barchasi</button>
   </div>
   <div className="bg1">
-    <div className="mnbg1">
-      <div className="mini22">
+    <div className="div1">
+      <div className="mini22" id='sp1'>
         
         <h3><span className='sp1'><HiOutlineDesktopComputer/></span>Dasturlash</h3>
       </div>
-      <div className="mini22">
+      <div className="mini22"id='sp1'>
       
         <h3>  <span className='sp2'><LuPalette/></span>Dizayn</h3>
       </div>
-      <div className="mini22">
+      <div className="mini22" id='sp1'>
        
         <h3> <span className='sp3'><PiShoppingBagOpen/></span>Biznes</h3>
       </div>
-      <div className="mini22">
+      <div className="mini22" id='sp1'>
         
         <h3><span className='sp4'><BiCoinStack/></span>Buxgalteriya</h3>
       </div>
-    </div>
-    <div className="mnbg2">
-    <div className="mini22">
+
+      </div>
+
+      <div className="div2">
+    <div className="mini22" id='sp2'>
      
       <h3> <span className='sp5'><PiChartLineUpThin/></span>Marketing</h3>
     </div>
-    <div className="mini22">
+    <div className="mini22"id='sp2'>
       
       <h3><span className='sp6'><CiMedal/></span>Menejment</h3>
     </div>
-    <div className="mini22">
+    <div className="mini22" id='sp2'>
       
       <h3><span className='sp7'><BsShield/></span>Xavfsizlik</h3>
     </div>
-     <div className="mini22">
+     <div className="mini22" id='sp2'>
       
       <h3><span className='sp8'><PiHeartbeat/></span>Salomatlik</h3>
      </div>
-    </div>
+     </div>
   </div>
 </div>
 
@@ -259,11 +261,11 @@ tirish qoidalari</h3>
     <h3>Tarmoq  </h3>
   </div>
   <div className="cards1">
-    <div className="mini6">
+    <div className="mini7 ">
   <div className="img01">
   <button className='btn01'>Dasturlash</button>
   </div>
-  <div className="min3">
+  <div className="min4">
     <div className="bginfo">
     <div className="info1">
       <h3 className='hh01'>Python bo’yicha boshlang’ich
@@ -273,11 +275,85 @@ dasturlash</h3>
     <div className="info2">
 <div className="text5">
   <p>Kurs hajmi</p>
-  <h5>36 soat</h5>
+  <h5>42 soat</h5>
 </div>
 <div className="text6">
   <p>Kurs narxi</p>
-  <h5>450.000 UZS</h5>
+  <h5>370.000 UZS</h5>
+</div>
+<button className='btn3'><AiOutlineArrowRight/></button>
+    </div>
+    </div>
+  </div>
+</div>
+<div className="mini8 ">
+  <div className="img02">
+  <button className='btn01'>Dasturlash</button>
+  </div>
+  <div className="min4">
+    <div className="bginfo">
+    <div className="info1">
+      <h3 className='hh02'>Java bo’yicha boshlang’ich
+dasturlash</h3>
+<div className="img2"></div>
+    </div>
+    <div className="info2">
+<div className="text5">
+  <p>Kurs hajmi</p>
+  <h5>42 soat</h5>
+</div>
+<div className="text6">
+  <p>Kurs narxi</p>
+  <h5>370.000 UZS</h5>
+</div>
+<button className='btn3'><AiOutlineArrowRight/></button>
+    </div>
+    </div>
+  </div>
+</div>
+<div className="mini9 ">
+  <div className="img03">
+  <button className='btn01'>Dasturlash</button>
+  </div>
+  <div className="min4">
+    <div className="bginfo">
+    <div className="info1">
+      <h3 className=''>Spring to’liq kurs</h3>
+<div className="img2"></div>
+    </div>
+    <div className="info2">
+<div className="text5">
+  <p>Kurs hajmi</p>
+  <h5>42 soat</h5>
+</div>
+<div className="text6">
+  <p>Kurs narxi</p>
+  <h5>370.000 UZS</h5>
+</div>
+<button className='btn3'><AiOutlineArrowRight/></button>
+    </div>
+    </div>
+  </div>
+</div>
+<div className="mini10 ">
+  <div className="img04">
+  <button className='btn01'>Dasturlash</button>
+  </div>
+  <div className="min4">
+    <div className="bginfo">
+    <div className="info1">
+      <h3 className='hh03'>C++ da massivlar bilan
+ishlash</h3>
+<div className="img2"></div>
+    </div>
+    <div className="info2">
+<div className="text5">
+  <p>Kurs hajmi</p>
+  <h5>42 soat</h5>
+</div>
+<div className="text6">
+  <p>Kurs narxi</p>
+  <h5>370.000 UZS</h5>
 </div>
 <button className='btn3'><AiOutlineArrowRight/></button>
     </div>
