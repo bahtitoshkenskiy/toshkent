@@ -1,7 +1,7 @@
 import './App.css';
 import Start from './pages/Start.js'
 import Konor from './pages/Konor.js'
-import { RiSearch2Line,RiMedicineBottleLine } from "react-icons/ri";
+import { RiSearch2Line } from "react-icons/ri";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { LuPalette } from "react-icons/lu";
@@ -360,6 +360,64 @@ ishlash</h3>
     </div>
   </div>
 </div>
+  </div>
+
+  <div className="cards2">
+  <div className="mini11 ">
+  <div className="img05 ">
+  <button className='btn01'>Dasturlash</button>
+  </div>
+  <div className="min4">
+    <div className="bginfo">
+    <div className="info1">
+      <h3 className=''>CSS da grid texnologiyalari</h3>
+<div className="img2"></div>
+    </div>
+    <div className="info2">
+<div className="text5">
+  <p>Kurs hajmi</p>
+  <h5>42 soat</h5>
+</div>
+<div className="text6">
+  <p>Kurs narxi</p>
+  <h5>370.000 UZS</h5>
+</div>
+<button className='btn3'><AiOutlineArrowRight/></button>
+    </div>
+    </div>
+  </div>
+</div>
+<div className="mini12 ">
+  <div className="img06 ">
+  <button className='btn01'>Dasturlash</button>
+  </div>
+  <div className="min4">
+    <div className="bginfo">
+    <div className="info1">
+      <h3 className='hh04'>HTML 5 imkoniyatlari, CSS 3 
+imkoniyatlari</h3>
+<div className="img2"></div>
+    </div>
+    <div className="info2">
+<div className="text5">
+  <p>Kurs hajmi</p>
+  <h5>42 soat</h5>
+</div>
+<div className="text6">
+  <p>Kurs narxi</p>
+  <h5>370.000 UZS</h5>
+</div>
+<button className='btn3'><AiOutlineArrowRight/></button>
+    </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div className="vin">
+    <h1 className='g1'>"</h1><h4>“O’z qalbing va ichki sezgingga ergashish uchun 
+yetarlicha jur’atli bo’l. Zotan shu ikki tuyg’u 
+sening aslida kim bo’lishni xoxlashingni aniq biladi.”</h4><h1 className='g2'>"</h1>
+
   </div>
 </header>
     </div>

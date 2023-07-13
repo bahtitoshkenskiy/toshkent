@@ -104,6 +104,9 @@ flex-wrap: wrap;
         .mini2{
 margin-top: 7%;
         }
+        .vin h3{
+
+        }
     }
     .aylana{
         position: absolute;
@@ -503,6 +506,70 @@ color: rgba(83, 109, 253, 1);
     flex-wrap: wrap;
     margin-top: 5%;
 }
+.cards2{
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    /* margin-left: -2px;
+    width: 950px; */
+}
+ .mini11{
+    width: 400px;
+    height: 430px;
+        background: 
+    rgba(188, 187, 187, 0.1);    
+ }   
+.img05{
+    width: 400px;
+    height: 195px;
+    background: url(./pages/Rectangle\ 11.9.png)   
+}
+.mini12{
+    width: 400px;
+    height: 430px;
+        background: 
+    rgba(188, 187, 187, 0.1);    
+}
+.img06{
+    width: 400px;
+    height: 195px;
+    background: url(./pages/Rectangle\ 11.11.png)   
+}
+.hh04{
+    width: 400px;
+    margin-left: -5%;
+}
+.vin{
+    width: 75%;
+    height: 50vh;
+    background: url(./pages/Rectangle\ 13.png);
+    margin: auto;
+color: white;
+}
+.vin h4{
+width: 550px;
+margin: auto;
+margin-top: -12%;
 
-    
+}
+.g1{
+    font-size: 250px;
+    margin: auto;
+    margin-left: 13%;
+}
+.g2{
+    font-size: 250px;
+    margin: auto;
+    margin-left: 73%;
+    margin-top: -5%;
+
+}
+
+
+
+
+
+
     
