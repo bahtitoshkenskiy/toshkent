@@ -9,9 +9,11 @@ import { PiShoppingBagOpen,PiChartLineUpThin,PiHeartbeat } from "react-icons/pi"
 import { CiMedal } from "react-icons/ci";
 import { BsShield } from "react-icons/bs";
 import { BiCoinStack } from "react-icons/bi";
+import Get from './pages/Get.js'
 function App() {
   return (
 <div >
+  <Get/>
 <Konor/>
 <Start/>
 <header className='header1'>
