@@ -104,6 +104,10 @@ flex-wrap: wrap;
         .mini2{
 margin-top: 7%;
         }
+.vin h4{
+
+    font-size: 15px;
+}
 
     }
     .aylana{
@@ -540,25 +544,26 @@ color: rgba(83, 109, 253, 1);
     margin-left: -5%;
 }
 .vin{
-    width: 75%;
+    width: 75vw;
+    min-width:30vw;
     height: 50vh;
     background: url(./pages/Rectangle\ 13.png);
     margin: auto;
 color: white;
 }
 .vin h4{
-width: 550px;
+width: 550px;   
 margin: auto;
 margin-top: -12%;
 
 }
 .g1{
-    font-size: 250px;
+    font-size: 200px;
     margin: auto;
     margin-left: 13%;
 }
 .g2{
-    font-size: 250px;
+    font-size: 200px;
     margin: auto;
     margin-left: 73%;
     margin-top: -5%;
